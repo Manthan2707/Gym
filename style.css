@@ -1,0 +1,99 @@
+body {
+    color: #3b1a1d;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/man-2604149_1280.jpg');
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 78px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    line-height: 17px;
+    font-size: 16px;
+}
+
+.mid {
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navigation li a:hover,
+.navigation li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    background-color: rgb(82, 75, 75);
+    color: white;
+    padding: 0px 5px;
+    margin: 0px 1px;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(79, 28, 28);
+}
+
+.container {
+    border-radius: 10px;
+    margin: -15px 738px;
+    padding: 3px 63px;
+    width: 40%;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 300px;
+    margin: 8px auto;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 30%;
+    margin: auto;
+}
